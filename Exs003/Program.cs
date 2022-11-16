@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("Введите длинну массмва N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+int[] mass = new int[N];
+int i;
+Console.WriteLine("Введите числа:");
+for (i=0; i<mass.Length;i++) mass[i] = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введенные числа:");
+for (i=0; i<mass.Length;i++) Console.Write("{0} ", mass[i]);
